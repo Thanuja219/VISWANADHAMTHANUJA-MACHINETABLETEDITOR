@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <style>table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      
+      .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.right {
+  float: right;
+  width: 240px;
+  border: 3px solid #131312;
+  padding: 10px;
+}
+          </style>
+</head>
+<body bgcolor=" #e6ffff">
+  
+<center>
+  <table border="1">
+    <tr><th>Formal Relationships</th><th>Resistor 1</th><th>Resistor 2</th><th>Operational amplifier</th><th>Input</th><th>Output</th></tr><tr><td>Resistor 1</td><td></td><td>Connected at V -</td><td>Connected at V -</td><td>Connected at input</td><td></td></tr><tr><td>Resistor 2</td><td>Connected at V -</td><td></td><td>Connected at V - and connected at output</td><td></td><td>Connected at output</td></tr><tr><td>Operational Input amplifier</td><td>Connected at input at V -</td><td>Connected connected at output at V - and</td><td></td><td></td><td>Connected at output</td></tr><tr><td>Output</td><td></td><td>Connected at output</td><td>Connected at output</td><td></td><td></td></tr></table>
+<br>
+
+
+    <div class="pagination" > <div class="right">
+        <a href="t1.html">&laquo;</a>
+        <a class="active"href="t1.html">1</a>
+        <a href="t2.html">2</a>
+        <a href="t3.html">3</a>
+       <a href="t4.html">4</a>
+       
+      </center>
+    </div>
+      </div>
+</body>
+</html>
